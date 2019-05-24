@@ -28,9 +28,9 @@ spec:
     - "*"
   canaryAnalysis:
     # schedule interval (default 60s)
-    interval: 10s
+    interval: 60s
     # max number of failed metric checks before rollback
-    threshold: 10
+    threshold: 1
     # total number of iterations
     iterations: 10
     # canary match condition
